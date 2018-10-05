@@ -1,0 +1,12 @@
+{
+    "entityLocation": "src/Entities",
+    "clientLocation": "src/API",
+    "templateLocation": "template",
+    "pluginLocation": "plugin",
+    "filesToRename": [
+        {
+            "originalName": "",
+            "newName": ""
+        }
+    ]
+}
