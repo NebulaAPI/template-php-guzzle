@@ -2,7 +2,8 @@
     "name": "nebula-api/php-guzzle-template",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "netresearch/jsonmapper": "^1.4"
     },
     "autoload": {
         "psr-0": { "": "src/" }
