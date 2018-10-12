@@ -3,10 +3,11 @@
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^6.3",
-        "netresearch/jsonmapper": "^1.4"
+        "netresearch/jsonmapper": "^1.4",
+        "ext-json": "*"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-4": { "DattoSdk\\": "src/" }
     },
     "license": "MIT",
     "authors": [
@@ -14,5 +15,6 @@
             "name": "Jason Miesionczek",
             "email": "jmiesionczek@datto.com"
         }
-    ]
+    ],
+    "description": ""
 }
