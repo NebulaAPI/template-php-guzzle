@@ -7,7 +7,7 @@
         "ext-json": "*"
     },
     "autoload": {
-        "psr-4": { "DattoSdk\\": "src/" }
+        "psr-4": { "%%PROPERNAME%%\\": "src/" }
     },
     "license": "MIT",
     "authors": [

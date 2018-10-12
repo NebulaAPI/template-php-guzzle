@@ -1,6 +1,7 @@
 {
-    "entityLocation": "src/Entities",
-    "clientLocation": "src/API",
+    "entityLocation": "Entities",
+    "clientLocation": "API",
+    "sourceFolder": "src",
     "templateLocation": "template",
     "pluginLocation": "plugin",
     "filesToRename": [
