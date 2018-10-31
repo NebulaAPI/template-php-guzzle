@@ -1,13 +1,19 @@
 {
-    "entityLocation": "Entities",
-    "clientLocation": "API",
-    "sourceFolder": "src",
-    "templateLocation": "template",
-    "pluginLocation": "plugin",
-    "filesToRename": [
-        {
-            "originalName": "",
-            "newName": ""
+    "name": "php-guzzle",
+    "author": "Jason Miesionczek <atmospherian@gmail.com>",
+    "description": "Basic PHP template that uses Guzzle",
+    "languagePlugin": {
+        "name": "plugin-language-php",
+        "version": "^1.0"
+    },
+    "configuration": {
+        "entityLocation": "Entities",
+        "clientLocation": "API",
+        "sourceFolder": "src",
+        "templateLocation": "template",
+        "extensionLocation": "ext",
+        "filesToRename": {
+            
         }
-    ]
+    }
 }
