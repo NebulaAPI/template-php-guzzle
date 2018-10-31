@@ -3,7 +3,7 @@
     "author": "Jason Miesionczek <atmospherian@gmail.com>",
     "description": "Basic PHP template that uses Guzzle",
     "languagePlugin": {
-        "name": "plugin-language-php",
+        "name": "plugin-language-php2",
         "version": "^1.0"
     },
     "configuration": {
