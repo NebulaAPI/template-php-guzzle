@@ -4,7 +4,7 @@
     "description": "Basic PHP template that uses Guzzle",
     "languagePlugin": {
         "name": "plugin-language-php",
-        "version": "^1.0"
+        "version": "1.*"
     },
     "configuration": {
         "entityLocation": "Entities",
