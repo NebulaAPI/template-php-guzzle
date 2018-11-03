@@ -1,14 +1,12 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using Core.Plugin;
-using Nebula.Compiler.Objects;
-using Nebula.Compiler.Abstracts;
-using Nebula.Models;
 using System.Text.RegularExpressions;
+using Nebula.SDK.Plugin;
+using Nebula.SDK.Compiler.Objects;
+using Nebula.SDK.Objects;
 
-
-public class PhpCompilerPlugin : ICompilerPlugin
+public class PhpCompilerExtension : ICompilerExtension
 {
     public List<RootObject> GetTopOfClassExtra(ApiConfig config)
     {

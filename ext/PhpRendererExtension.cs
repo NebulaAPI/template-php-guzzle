@@ -1,12 +1,10 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using Core.Plugin;
-using Nebula.Compiler.Objects;
-using Nebula.Compiler.Abstracts;
 using System.Text.RegularExpressions;
+using Nebula.SDK.Plugin;
 
-public class PhpRenderPlugin : IRenderPlugin
+public class PhpRendererExtension : IRendererExtension
 {
     public List<string> RenderClientImports()
     {
